@@ -1,4 +1,4 @@
-# NewsVerifier
+
 
 # News Verifier: Fake News Detection System
 
@@ -22,7 +22,7 @@ cd news-verifier
 pip install -r requirements.txt
 ```
 
-##Usage
+## Usage
 To use the fake news detection model, follow these steps:
 
 Ensure your dataset is properly formatted and placed in the appropriate directory.
@@ -33,25 +33,25 @@ Train the model using the training script.
 https://www.kaggle.com/c/fake-news/data?select=train.csv
 ```
 
-##Model Details
+## Model Details
 The fake news detection model is based on logistic regression. The following key features contribute to its high accuracy:
 
 Training Accuracy: 98%
 Test Accuracy: 97%
 
-##Data Preprocessing
+## Data Preprocessing
 The data preprocessing pipeline includes the following steps:
 
 Text Cleaning: Removing special characters, numbers, and punctuation.
 Stop Words Removal: Eliminating common stop words to focus on meaningful words.
 TF-IDF Feature Extraction: Transforming text data into numerical features suitable for machine learning.
 
-##Technology Used
+## Technology Used
 Python: Core programming language for developing the model.
 Numpy: Library for numerical computations.
 Pandas: Library for data manipulation and analysis.
 
-Contact
+## Contact
 For questions, suggestions, or feedback, please contact:
 
 Anubhav Jaiswal
