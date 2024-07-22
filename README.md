@@ -11,8 +11,6 @@ News Verifier is a high-accuracy fake news detection system designed to identify
 - [Model Details](#model-details)
 - [Data Preprocessing](#data-preprocessing)
 - [Technology Used](#technology-used)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Installation
@@ -22,3 +20,40 @@ To get started with the News Verifier project, clone the repository and install 
 git clone https://github.com/your-username/news-verifier.git
 cd news-verifier
 pip install -r requirements.txt
+```
+
+##Usage
+To use the fake news detection model, follow these steps:
+
+Ensure your dataset is properly formatted and placed in the appropriate directory.
+Run the preprocessing script to clean and prepare the data.
+Train the model using the training script.
+
+```bash
+https://www.kaggle.com/c/fake-news/data?select=train.csv
+```
+
+##Model Details
+The fake news detection model is based on logistic regression. The following key features contribute to its high accuracy:
+
+Training Accuracy: 98%
+Test Accuracy: 97%
+
+##Data Preprocessing
+The data preprocessing pipeline includes the following steps:
+
+Text Cleaning: Removing special characters, numbers, and punctuation.
+Stop Words Removal: Eliminating common stop words to focus on meaningful words.
+TF-IDF Feature Extraction: Transforming text data into numerical features suitable for machine learning.
+
+##Technology Used
+Python: Core programming language for developing the model.
+Numpy: Library for numerical computations.
+Pandas: Library for data manipulation and analysis.
+
+Contact
+For questions, suggestions, or feedback, please contact:
+
+Anubhav Jaiswal
+Email: your-anubhavjais021@gmail.com
+GitHub: Anubhavjaiswal21
